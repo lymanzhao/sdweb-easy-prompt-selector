@@ -26,7 +26,7 @@ class EPSElementBuilder {
     fields.style.maxWidth = '100%'
     fields.style.flex = '1 calc(50% - 20px)'
     fields.style.borderWidth = '1px'
-    fields.style.borderColor = 'rgba(30, 30, 30, 0.5)'
+    fields.style.borderColor = 'var(--input-background-fill)'
     fields.style.borderRadius = 'var(--block-radius,8px)'
     fields.style.padding = '8px'
     fields.style.height = 'fit-content'
@@ -73,7 +73,7 @@ class EPSElementBuilder {
 
     // gradio 3.22
     select.style.color = 'var(--body-text-color)'
-    select.style.backgroundColor = 'var(--input-background-fill)'
+    select.style.backgroundColor = 'rgba(30, 30, 30, 0.5)'
     select.style.borderColor = 'var(--block-border-color)'
     select.style.borderRadius = 'var(--block-radius)'
     select.style.margin = '2px'
