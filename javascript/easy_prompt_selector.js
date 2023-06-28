@@ -26,7 +26,7 @@ class EPSElementBuilder {
     fields.style.maxWidth = '100%'
     fields.style.flex = '1 calc(50% - 20px)'
     fields.style.borderWidth = '1px'
-    fields.style.borderColor = 'var(--block-border-color,#374151)'
+    fields.style.borderColor = 'rgba(30, 30, 30, 0.5)'
     fields.style.borderRadius = 'var(--block-radius,8px)'
     fields.style.padding = '8px'
     fields.style.height = 'fit-content'
